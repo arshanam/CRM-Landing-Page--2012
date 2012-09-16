@@ -1,0 +1,196 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic);
+
+/* @group layout */
+.container {
+   width: 860px; /* Ширина макета */
+   margin: 0 auto; /* Выравниваем по центру */
+   position: relative; /* Относительное позиционирование */
+  }
+.header {
+	width: 960px; /* Ширина макета */
+	margin: 0 auto; /* Выравниваем по центру */
+	height: 115px;
+	display: block;
+}
+.space {
+	height: 20px;
+}
+.main {
+	margin-right: 280px; /* Отступ справа */
+	margin-left: -17px;
+}
+.sidebar {
+   /* Абсолютное позиционирование */
+   right: 0; /* Положение от правого края */
+   top: 0; /* Положение от верхнего края */
+   width: 270px; /* Ширина */
+   position: absolute;
+   float: right;
+}
+.phone {
+	background: url('images/icon_phone.gif') no-repeat left center;
+	padding-left: 20px;
+	width: 250px;
+	font-size: 12px;
+	line-height: 1.5em;
+	top: 60%;
+}
+.footer p {
+	color: #fff;
+}
+.footer a, header a {
+	color: #F9CD7E;	
+}
+
+.footer {
+	background: #546262; /* Цвет фона */
+	padding: 15px; /* Отступы вокруг текста */
+	margin-top: 10px;
+}
+.footer p {
+	font-size: 10px;
+}
+.footer img {
+	float: left;
+	padding: 0 10px 0 0;
+}
+.image {
+	background: url('images/head.png') no-repeat left top;
+	height: 370px;
+	margin-top: -115px;
+}
+.image div {
+	padding: 145px 400px 0 30px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.image h1 {
+	font-size: 22px;
+	font-weight: bold;
+	font-style: normal;
+	color: #546262;
+	line-height: 1.25em;
+	padding-bottom: 10px;
+}
+.footnote {
+	font-size: 12px;
+	text-indent: -.5em;
+	color: #555;
+	padding-top: 10px;
+}
+.genius {
+	bottom: 22px;
+	position: absolute;
+	right: -18px;
+}
+/* @end */
+
+/* @group text*/
+* {
+	font-family: 'PT Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.2em;
+}
+body {
+	margin: 0;
+	background: url(images/bg_stripes.gif) #fff;
+}
+p {
+	font-size: 14px;
+	margin: 0;
+	color: #546262;
+}
+a {
+	text-decoration: none;
+	color: #255F7F;
+}
+
+h2 {
+	color: #F9CD7E;
+	margin: 0;
+	padding-top: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+}
+h3 {
+	font-weight: bold;
+	font-size: 19px;
+	color: #536161;
+	margin: 0 0 5px 0;
+}
+
+.f_line_text, label {
+	font-size: 13px;
+	color: #536161;
+}
+
+.f_line_text {
+	margin: 0;
+	padding: 5px 0 0 0;
+}
+.f_line {
+	width: 100%;
+	height: 20px;
+	border: 0;
+	border-top: 2px solid #F6E7CD;
+	border-left: 2px solid #F6E7CD;
+
+}
+.col1, col2 {
+	display: block;
+}
+.col1 {
+	width: 95px;
+	float: left;
+	padding-right: 11px;
+}
+.col2{
+	width: 120px;
+	float: left;
+	margin-bottom: 5px;
+}
+.red {
+	color: #F67900;
+}
+#go_image {
+	padding: 15px 0 0 0;
+	margin-left: -5px;
+}
+/* @end */
+
+/* @group chat*/
+.content {
+	padding: 15px 20px 10px;
+}
+.sidebar .content {
+	padding: 20px 24px 0 20px;
+}
+.question {
+	background: url('images/chat_1str.png') no-repeat 0 top;
+	padding: 25px 45px 10px 80px;
+}
+.question_2str {
+	background: url('images/chat_2str.png') no-repeat 0 top;
+	padding: 20px 45px 0px 80px;
+}
+
+.answer {
+	background: url('images/chat_1str.png') no-repeat 0 -84px;
+	padding: 0 70px 0 40px;
+}
+.tail {
+	height: 5px;
+	background: url('images/chat_1str.png') no-repeat 0 bottom;
+	padding-bottom: 0;
+	margin-bottom: 10px;
+}
+.side_form {
+	background: url('images/form_bg.png') no-repeat 0 top;
+	margin-top: 22px;
+}
+.side_form .tail {
+	height: 10px;
+	background: url('images/form_bg.png') no-repeat 0 bottom;
+}
+
+/* @end */

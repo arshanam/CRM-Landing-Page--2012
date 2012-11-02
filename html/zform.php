@@ -10,6 +10,8 @@ $name    = $_POST['name'];
 $father_name = $_POST['father_name'];
 $city    = $_POST['city'];
 $phone_number = $_POST['phone_number'];
+$company    = $_POST['company'];
+$position = $_POST['position'];
 $email   = $_POST['email'];
 $subject = "=?windows-1251?b?" . base64_encode($subject) . "?=";
 $Date = date(DATE_RFC822);
@@ -38,6 +40,8 @@ $last_name1 = strip_tags($last_name);
 $father_name1 = strip_tags($father_name);
 $city1 = strip_tags($city);
 $phone_number1 = strip_tags($phone_number);
+$company1 = strip_tags($company);
+$position1 = strip_tags($position);
 
 
 
@@ -108,6 +112,8 @@ Content-Transfer-Encoding: quoted-printable
 Имя: $FromName <br/>\n
 Отчество: $father_name1 <br/>\n
 Город: $city1 <br/>\n
+Компания: $company1 <br/>\n
+Должность: $position1 <br/>\n
 Почта: $FromEmail<br/>\n
 Телефон: $phone_number1 <br/>\n\n
 
@@ -121,6 +127,8 @@ Content-Transfer-Encoding: quoted-printable
 Имя: $FromName <br/>\n
 Отчество: $father_name1 <br/>\n
 Город: $city1 <br/>\n
+Компания: $company1 <br/>\n
+Должность: $position1 <br/>\n
 Почта: $FromEmail<br/>\n
 Телефон: $phone_number1 <br/>\n\n
 
@@ -178,6 +186,8 @@ Content-Transfer-Encoding: quoted-printable
 Имя: $FromName <br/>\n
 Отчество: $father_name1 <br/>\n
 Город: $city1 <br/>\n
+Компания: $company1 <br/>\n
+Должность: $position1 <br/>\n
 Почта: $FromEmail<br/>\n
 Телефон: $phone_number1 <br/>\n\n
 
@@ -192,6 +202,8 @@ Content-Transfer-Encoding: quoted-printable
 Имя: $FromName <br/>\n
 Отчество: $father_name1 <br/>\n
 Город: $city1 <br/>\n
+Компания: $company1 <br/>\n
+Должность: $position1 <br/>\n
 Почта: $FromEmail<br/>\n
 Телефон: $phone_number1 <br/>\n\n
 
